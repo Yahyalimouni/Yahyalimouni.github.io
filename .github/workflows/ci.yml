@@ -35,5 +35,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.MY_PAT }}
         publish_dir: ./site  # This is the directory where MkDocs builds the site by default
+        force: true
