@@ -1,4 +1,39 @@
 site_name: My Docs
-nav: 
+nav:
   - Home: index.md
   - Practica2: https://Yahyalimouni.github.io/Practicas/practica2/
+
+theme:
+  name: material  # Use Material theme for MkDocs
+  features:
+    - navigation.tabs  # Enable tab navigation
+    - navigation.top  # Show navigation at the top
+    - search.highlight  # Highlight search results
+    - search.share  # Share button in the search
+    - navigation.tracking  # Track navigation links
+
+palette:
+  scheme: default  # Default theme (light mode)
+  # You can customize colors for both light and dark themes here
+  primary: slate
+  accent: cyan
+
+# Enable dark mode support
+extra_css:
+  # - stylesheets/extra.css 
+
+markdown_extensions:
+  - toc:
+      permalink: true  # Add permalinks to headers
+  - admonition  # Enable admonition support for notes, warnings, etc.
+  - codehilite:
+      guess_lang: false  # Disable language guessing for code blocks
+
+# Enable the theme options for light/dark mode
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yahyalimouni
+  palette:
+    - name: Default  # Light theme
+    - name: Dark  # Dark theme
