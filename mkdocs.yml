@@ -12,7 +12,7 @@ theme:
     - search.share  
     - navigation.tracking  
 
-palette:
-  scheme: slate
-  primary: cyan
-  accent: indigo
+  palette:
+    scheme: slate
+    primary: cyan
+    accent: indigo
