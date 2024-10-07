@@ -1,40 +1,34 @@
 name: Deploy MkDocs
 
-# Trigger the workflow on push to the main branch
 on:
   push:
     branches:
-      - main  # You can replace this with the branch you're using
+      - main 
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Check out the code from your repository
     - name: Checkout code
       uses: actions/checkout@v3
 
-    # Step 2: Set up Python environment
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Specify the Python version (adjust as needed)
+        python-version: '3.x'  
 
-    # Step 3: Install MkDocs and any additional dependencies (like themes)
     - name: Install MkDocs and dependencies
       run: |
         pip install mkdocs
         pip install mkdocs-material  # Optional: if you're using the Material theme or other plugins
 
-    # Step 4: Build the MkDocs site
     - name: Build MkDocs site
       run: mkdocs build --strict
 
-    # Step 5: Deploy the built MkDocs site to the gh-pages branch
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.MY_PAT }}
-        publish_dir: ./site  # This is the directory where MkDocs builds the site by default
+        publish_dir: ./site
         force: true
