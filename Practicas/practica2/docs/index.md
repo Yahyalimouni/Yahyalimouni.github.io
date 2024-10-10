@@ -54,4 +54,18 @@ Creamos una carpeta ftp en /home/yahya
 Creamos los certitificados de seguridad de la conexion
 ![15_securizar_ftp.png](assets/capturas/15_securizar_ftp.png)
 
+Configurar vsftpd
+![16_conifgurar_vsftpd_conf.png](assets/capturas/16_conifgurar_vsftpd_conf.png)
+
+Reiniciar el servicio vsdtpd
+![17_reiniciar_servicio_vsftpd.png](assets/capturas/17_reiniciar_servicio_vsftpd.png)
+
+Conexion a filezilla
+![18_conexion_filezilla.png](assets/capturas/18_conexion_filezilla.png)
+
+Drop the zipfile
+![19_drop_zipfile.png](assets/capturas/19_drop_zipfile.png)
+
+Unzip it using the command:
+`unzip Funciones.zip`
 
