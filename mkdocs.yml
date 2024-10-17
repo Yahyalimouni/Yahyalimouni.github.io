@@ -1,8 +1,8 @@
 site_name: Yahya Limouni - DAW
 nav:
   - Home: index.md
-  - Practica2.1: https://Yahyalimouni.github.io/practica2/
-  - Practica2.2: https://Yahyalimouni.github.io/practica2.2/
+  - Practica2.1: practica2/index.md
+  - Practica2.2: practica2.2/index.md
 
 theme:
   name: material  # Use Material theme for MkDocs
