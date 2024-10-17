@@ -1,8 +1,8 @@
 site_name: Yahya Limouni - DAW
 nav:
   - Home: index.md
-  - Practica2.1: Practicas/practica2/index.md
-  - Practica2.2: Practicas/practica2.2/index.md
+  - Practica2.1: ./Practicas/practica2/index.md
+  - Practica2.2: ./Practicas/practica2.2/index.md
 
 theme:
   name: material  # Use Material theme for MkDocs
