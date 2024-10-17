@@ -1,3 +1,6 @@
 [submodule "practica2"]
 	path = Practicas/practica2
 	url = https://github.com/Yahyalimouni/practica2.git
+[submodule "Practicas/practica2.2"]
+	path = Practicas/practica2.2
+	url = https://github.com/Yahyalimouni/practica2.2.git
