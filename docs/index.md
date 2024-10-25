@@ -3,4 +3,4 @@
 ## Introduccion:
 
 En esta web se presentan las practicas realizadas en
-Desplique de Aplicaciones Web!
+Despliegue de Aplicaciones Web!
