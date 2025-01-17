@@ -28,3 +28,9 @@
 [submodule "Practicas/practica-amp"]
 	path = Practicas/practica-amp
 	url = https://github.com/Yahyalimouni/practica-ampliacion.git
+[submodule "practiva4.1"]
+	path = practiva4.1
+	url = https://github.com/Yahyalimouni/practiva4.1.git
+[submodule "Practicas/practica4.1"]
+	path = Practicas/practica4.1
+	url = https://github.com/Yahyalimouni/practiva4.1.git
