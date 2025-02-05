@@ -34,3 +34,6 @@
 [submodule "Practicas/practica4.1"]
 	path = Practicas/practica4.1
 	url = https://github.com/Yahyalimouni/practiva4.1.git
+[submodule "Practicas/practica5.1"]
+	path = Practicas/practica5.1
+	url = https://github.com/Yahyalimouni/practica5.1.git
